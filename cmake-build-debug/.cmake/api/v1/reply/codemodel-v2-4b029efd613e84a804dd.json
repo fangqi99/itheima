@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "itheima",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ds::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ds-Debug-3911f33a57c037deff8f.json",
+					"name" : "ds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "guess_num::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-guess_num-Debug-bf86ff1b5c137b4b0ab8.json",
+					"name" : "guess_num",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "itheima::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-itheima-Debug-610cf4e139e6a1427128.json",
+					"name" : "itheima",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jiujiu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jiujiu-Debug-528f9e2fb9b8fa19a574.json",
+					"name" : "jiujiu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-19fe90d9c67173f1bae1.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/clionproject/itheima/cmake-build-debug",
+		"source" : "D:/clionproject/itheima"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

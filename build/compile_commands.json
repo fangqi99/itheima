@@ -1,0 +1,32 @@
+[
+{
+  "directory": "D:/clionproject/itheima/build",
+  "command": "D:\\mingw64\\bin\\g++.exe   -g -std=gnu++2a -o CMakeFiles\\itheima.dir\\main.cpp.obj -c D:\\clionproject\\itheima\\main.cpp",
+  "file": "D:/clionproject/itheima/main.cpp",
+  "output": "CMakeFiles/itheima.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/clionproject/itheima/build",
+  "command": "D:\\mingw64\\bin\\g++.exe   -g -std=gnu++2a -o CMakeFiles\\main.dir\\main.cpp.obj -c D:\\clionproject\\itheima\\main.cpp",
+  "file": "D:/clionproject/itheima/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/clionproject/itheima/build",
+  "command": "D:\\mingw64\\bin\\g++.exe   -g -std=gnu++2a -o CMakeFiles\\jiujiu.dir\\jiujiu.cpp.obj -c D:\\clionproject\\itheima\\jiujiu.cpp",
+  "file": "D:/clionproject/itheima/jiujiu.cpp",
+  "output": "CMakeFiles/jiujiu.dir/jiujiu.cpp.obj"
+},
+{
+  "directory": "D:/clionproject/itheima/build",
+  "command": "D:\\mingw64\\bin\\g++.exe   -g -std=gnu++2a -o CMakeFiles\\guess_num.dir\\guess_num.cpp.obj -c D:\\clionproject\\itheima\\guess_num.cpp",
+  "file": "D:/clionproject/itheima/guess_num.cpp",
+  "output": "CMakeFiles/guess_num.dir/guess_num.cpp.obj"
+},
+{
+  "directory": "D:/clionproject/itheima/build",
+  "command": "D:\\mingw64\\bin\\g++.exe   -g -std=gnu++2a -o CMakeFiles\\ds.dir\\发工资案例.cpp.obj -c D:\\clionproject\\itheima\\发工资案例.cpp",
+  "file": "D:/clionproject/itheima/发工资案例.cpp",
+  "output": "CMakeFiles/ds.dir/发工资案例.cpp.obj"
+}
+]

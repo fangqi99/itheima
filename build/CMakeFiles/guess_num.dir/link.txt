@@ -1,0 +1,3 @@
+D:\opencv\cmake-3.26.0-rc5-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\guess_num.dir/objects.a
+D:\mingw64\bin\ar.exe qc CMakeFiles\guess_num.dir/objects.a @CMakeFiles\guess_num.dir\objects1.rsp
+D:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\guess_num.dir/objects.a -Wl,--no-whole-archive -o guess_num.exe -Wl,--out-implib,libguess_num.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\guess_num.dir\linkLibs.rsp
