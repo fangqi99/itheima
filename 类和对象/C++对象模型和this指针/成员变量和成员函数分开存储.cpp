@@ -27,7 +27,7 @@ int main()
 {
 
     cout << sizeof(Person) << endl; // 4个字节
-
+    cout << "1";
     system("pause");
 
     return 0;
