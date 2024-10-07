@@ -1,0 +1,3 @@
+D:/clionproject/itheima/STL/案例/评委打分/build/CMakeFiles/main.dir
+D:/clionproject/itheima/STL/案例/评委打分/build/CMakeFiles/ALL_BUILD.dir
+D:/clionproject/itheima/STL/案例/评委打分/build/CMakeFiles/ZERO_CHECK.dir

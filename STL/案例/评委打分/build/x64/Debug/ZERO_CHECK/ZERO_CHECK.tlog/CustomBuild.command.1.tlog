@@ -1,0 +1,10 @@
+^D:\CLIONPROJECT\ITHEIMA\STL\案例\评委打分\BUILD\CMAKEFILES\8641C5CDD07D116BC9892FA3E1088C47\GENERATE.STAMP.RULE
+setlocal
+D:\opencv\cmake-3.26.0-rc5-windows-x86_64\bin\cmake.exe -SD:/clionproject/itheima/STL/案例/评委打分 -BD:/clionproject/itheima/STL/案例/评委打分/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/clionproject/itheima/STL/案例/评委打分/build/评委打分.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

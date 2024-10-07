@@ -1,3 +1,4 @@
+D:/clionproject/itheima/build/CMakeFiles/exampleTemplate.dir
 D:/clionproject/itheima/build/CMakeFiles/itheima.dir
 D:/clionproject/itheima/build/CMakeFiles/main.dir
 D:/clionproject/itheima/build/CMakeFiles/jiujiu.dir

@@ -62,6 +62,7 @@ CMAKE_BINARY_DIR = D:\clionproject\itheima\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/exampleTemplate.dir/all
 all: CMakeFiles/itheima.dir/all
 all: CMakeFiles/main.dir/all
 all: CMakeFiles/jiujiu.dir/all
@@ -74,6 +75,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/exampleTemplate.dir/clean
 clean: CMakeFiles/itheima.dir/clean
 clean: CMakeFiles/main.dir/clean
 clean: CMakeFiles/jiujiu.dir/clean
@@ -82,13 +84,39 @@ clean: CMakeFiles/ds.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/exampleTemplate.dir
+
+# All Build rule for target.
+CMakeFiles/exampleTemplate.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exampleTemplate.dir\build.make CMakeFiles/exampleTemplate.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exampleTemplate.dir\build.make CMakeFiles/exampleTemplate.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clionproject\itheima\build\CMakeFiles --progress-num=3,4 "Built target exampleTemplate"
+.PHONY : CMakeFiles/exampleTemplate.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exampleTemplate.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\clionproject\itheima\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/exampleTemplate.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\clionproject\itheima\build\CMakeFiles 0
+.PHONY : CMakeFiles/exampleTemplate.dir/rule
+
+# Convenience name for target.
+exampleTemplate: CMakeFiles/exampleTemplate.dir/rule
+.PHONY : exampleTemplate
+
+# clean rule for target.
+CMakeFiles/exampleTemplate.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exampleTemplate.dir\build.make CMakeFiles/exampleTemplate.dir/clean
+.PHONY : CMakeFiles/exampleTemplate.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/itheima.dir
 
 # All Build rule for target.
 CMakeFiles/itheima.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\itheima.dir\build.make CMakeFiles/itheima.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\itheima.dir\build.make CMakeFiles/itheima.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clionproject\itheima\build\CMakeFiles --progress-num=5,6 "Built target itheima"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clionproject\itheima\build\CMakeFiles --progress-num=7,8 "Built target itheima"
 .PHONY : CMakeFiles/itheima.dir/all
 
 # Build rule for subdir invocation for target.
@@ -114,7 +142,7 @@ CMakeFiles/itheima.dir/clean:
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clionproject\itheima\build\CMakeFiles --progress-num=9,10 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clionproject\itheima\build\CMakeFiles --progress-num=11,12 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -140,7 +168,7 @@ CMakeFiles/main.dir/clean:
 CMakeFiles/jiujiu.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\jiujiu.dir\build.make CMakeFiles/jiujiu.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\jiujiu.dir\build.make CMakeFiles/jiujiu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clionproject\itheima\build\CMakeFiles --progress-num=7,8 "Built target jiujiu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clionproject\itheima\build\CMakeFiles --progress-num=9,10 "Built target jiujiu"
 .PHONY : CMakeFiles/jiujiu.dir/all
 
 # Build rule for subdir invocation for target.
@@ -166,7 +194,7 @@ CMakeFiles/jiujiu.dir/clean:
 CMakeFiles/guess_num.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\guess_num.dir\build.make CMakeFiles/guess_num.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\guess_num.dir\build.make CMakeFiles/guess_num.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clionproject\itheima\build\CMakeFiles --progress-num=3,4 "Built target guess_num"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clionproject\itheima\build\CMakeFiles --progress-num=5,6 "Built target guess_num"
 .PHONY : CMakeFiles/guess_num.dir/all
 
 # Build rule for subdir invocation for target.

@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "itheima",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ds::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ds-Debug-552ef0f00ca3602433b2.json",
+					"name" : "ds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exampleTemplate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exampleTemplate-Debug-8b2e66334b1575b7330c.json",
+					"name" : "exampleTemplate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "guess_num::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-guess_num-Debug-d3c82d51b4be28296e20.json",
+					"name" : "guess_num",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "itheima::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-itheima-Debug-692cf5a67128f502a6a9.json",
+					"name" : "itheima",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jiujiu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jiujiu-Debug-9a71ca6f44cd9f4b20ec.json",
+					"name" : "jiujiu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-a1a90babc7b5ac16c876.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/clionproject/itheima/build",
+		"source" : "D:/clionproject/itheima"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

@@ -116,6 +116,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named exampleTemplate
+
+# Build rule for target.
+exampleTemplate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exampleTemplate
+.PHONY : exampleTemplate
+
+# fast build rule for target.
+exampleTemplate/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exampleTemplate.dir\build.make CMakeFiles/exampleTemplate.dir/build
+.PHONY : exampleTemplate/fast
+
+#=============================================================================
 # Target rules for targets named itheima
 
 # Build rule for target.
@@ -279,6 +292,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ds.dir\build.make CMakeFiles/ds.dir/发工资案例.cpp.s
 .PHONY : 发工资案例.cpp.s
 
+模板/类模板/类模板案例.obj: 模板/类模板/类模板案例.cpp.obj
+.PHONY : 模板/类模板/类模板案例.obj
+
+# target to build an object file
+模板/类模板/类模板案例.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exampleTemplate.dir\build.make CMakeFiles/exampleTemplate.dir/模板/类模板/类模板案例.cpp.obj
+.PHONY : 模板/类模板/类模板案例.cpp.obj
+
+模板/类模板/类模板案例.i: 模板/类模板/类模板案例.cpp.i
+.PHONY : 模板/类模板/类模板案例.i
+
+# target to preprocess a source file
+模板/类模板/类模板案例.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exampleTemplate.dir\build.make CMakeFiles/exampleTemplate.dir/模板/类模板/类模板案例.cpp.i
+.PHONY : 模板/类模板/类模板案例.cpp.i
+
+模板/类模板/类模板案例.s: 模板/类模板/类模板案例.cpp.s
+.PHONY : 模板/类模板/类模板案例.s
+
+# target to generate assembly for a file
+模板/类模板/类模板案例.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exampleTemplate.dir\build.make CMakeFiles/exampleTemplate.dir/模板/类模板/类模板案例.cpp.s
+.PHONY : 模板/类模板/类模板案例.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -288,6 +325,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ds
+	@echo ... exampleTemplate
 	@echo ... guess_num
 	@echo ... itheima
 	@echo ... jiujiu
@@ -304,6 +342,9 @@ help:
 	@echo ... 发工资案例.obj
 	@echo ... 发工资案例.i
 	@echo ... 发工资案例.s
+	@echo ... 模板/类模板/类模板案例.obj
+	@echo ... 模板/类模板/类模板案例.i
+	@echo ... 模板/类模板/类模板案例.s
 .PHONY : help
 
 

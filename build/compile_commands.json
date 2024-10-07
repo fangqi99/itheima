@@ -1,31 +1,37 @@
 [
 {
   "directory": "D:/clionproject/itheima/build",
-  "command": "D:\\mingw64\\bin\\g++.exe   -g -std=gnu++2a -o CMakeFiles\\itheima.dir\\main.cpp.obj -c D:\\clionproject\\itheima\\main.cpp",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/exampleTemplate.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\exampleTemplate.dir\\模板\\类模板\\类模板案例.cpp.obj -c D:\\clionproject\\itheima\\模板\\类模板\\类模板案例.cpp",
+  "file": "D:/clionproject/itheima/模板/类模板/类模板案例.cpp",
+  "output": "CMakeFiles/exampleTemplate.dir/模板/类模板/类模板案例.cpp.obj"
+},
+{
+  "directory": "D:/clionproject/itheima/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/itheima.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\itheima.dir\\main.cpp.obj -c D:\\clionproject\\itheima\\main.cpp",
   "file": "D:/clionproject/itheima/main.cpp",
   "output": "CMakeFiles/itheima.dir/main.cpp.obj"
 },
 {
   "directory": "D:/clionproject/itheima/build",
-  "command": "D:\\mingw64\\bin\\g++.exe   -g -std=gnu++2a -o CMakeFiles\\main.dir\\main.cpp.obj -c D:\\clionproject\\itheima\\main.cpp",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\main.dir\\main.cpp.obj -c D:\\clionproject\\itheima\\main.cpp",
   "file": "D:/clionproject/itheima/main.cpp",
   "output": "CMakeFiles/main.dir/main.cpp.obj"
 },
 {
   "directory": "D:/clionproject/itheima/build",
-  "command": "D:\\mingw64\\bin\\g++.exe   -g -std=gnu++2a -o CMakeFiles\\jiujiu.dir\\jiujiu.cpp.obj -c D:\\clionproject\\itheima\\jiujiu.cpp",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/jiujiu.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\jiujiu.dir\\jiujiu.cpp.obj -c D:\\clionproject\\itheima\\jiujiu.cpp",
   "file": "D:/clionproject/itheima/jiujiu.cpp",
   "output": "CMakeFiles/jiujiu.dir/jiujiu.cpp.obj"
 },
 {
   "directory": "D:/clionproject/itheima/build",
-  "command": "D:\\mingw64\\bin\\g++.exe   -g -std=gnu++2a -o CMakeFiles\\guess_num.dir\\guess_num.cpp.obj -c D:\\clionproject\\itheima\\guess_num.cpp",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/guess_num.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\guess_num.dir\\guess_num.cpp.obj -c D:\\clionproject\\itheima\\guess_num.cpp",
   "file": "D:/clionproject/itheima/guess_num.cpp",
   "output": "CMakeFiles/guess_num.dir/guess_num.cpp.obj"
 },
 {
   "directory": "D:/clionproject/itheima/build",
-  "command": "D:\\mingw64\\bin\\g++.exe   -g -std=gnu++2a -o CMakeFiles\\ds.dir\\发工资案例.cpp.obj -c D:\\clionproject\\itheima\\发工资案例.cpp",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/ds.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\ds.dir\\发工资案例.cpp.obj -c D:\\clionproject\\itheima\\发工资案例.cpp",
   "file": "D:/clionproject/itheima/发工资案例.cpp",
   "output": "CMakeFiles/ds.dir/发工资案例.cpp.obj"
 }
